@@ -1,0 +1,183 @@
+/*15 Design Css Style*/
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+color: black;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*NavBar Style*/
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.navbar li{
+
+    margin-right: 0px!important;
+}
+.navbar-nav{
+margin-right: 00px!important;
+}
+.navbar-brand{
+    margin-left: 00px!important;
+}
+/*Header Style*/
+header{  
+  padding-bottom: 300px;
+ background-image: url('../images/bg-svg/bg-mobile.svg');
+  background-position: 600px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero{
+    margin-top: 200px;
+}
+.hero h2{
+    margin-bottom: 50px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.hero p{
+    font-size: 22px;
+    line-height: 3rem;
+}
+.image-mob{
+    width: 400px;
+    height: 500px;
+}
+/*Service Style*/
+.cd-img{
+margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+}
+.card{
+    border: none;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.title {
+    line-height: 0.5;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .title span {
+    display: inline-block;
+    position: relative;  
+  }
+  .title span:before,
+  .title span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 10px solid blueviolet;
+    border-radius: 20px;
+    top: 0;
+    width: 60px;
+  }
+  .title span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .title span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+#clients{
+    background-color: blueviolet;
+    height: 200px;
+    margin-top: 200px;
+}
+.card{
+    background-color: transparent;
+}
+.img-thumbnail{
+    margin-top: 40px;
+    border-radius: 50px!important;
+}
+.cd-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400!important;
+    line-height: 2rem;
+}
+.card-sub-title{
+    font-weight: 700;
+    color: white;
+}
+/*Free*/
+#free{
+    margin-top: 200px;
+}
+.btn-free{
+    margin-left: 150px;
+    font-weight: 700!important;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 40px;
+    height: 50px;
+    width: 200px;
+}
+.free-text{
+    margin-left: 150px;
+    font-weight: 700!important;
+
+}
+/*Porotfolio*/
+#portofolio{
+   /* height: 1400px;*/
+    margin-top: 200px;
+    background-image: url("../images/bg-svg/bg-left.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -500px 600px;
+}
+.cd-pr{
+    margin-right: 20px;
+}
+.card-group{
+    margin-bottom: 20px;
+}
+.img-pr{
+    height: 350px;
+    border-radius: 15px;
+}
+/*Blog*/
+#blog{
+    margin-top: 200px;
+}
+.cd-bg{
+    margin-right: 20px;
+}
+.cd-bg-text{
+    line-height: 2rem;
+    font-size: 14px;
+}
